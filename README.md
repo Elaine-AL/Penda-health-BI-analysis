@@ -7,3 +7,4 @@ PendaHealthdata__Analysis.xlsx file is the final analysis of the data containing
 I used FIND and REPLACE, Ablebits tools,Text-to-Date formart conversion for cleaning and pivot tables, pivot charts and IF function for the analyses.
 
 
+
