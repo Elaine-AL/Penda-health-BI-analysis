@@ -36,6 +36,18 @@ bia = bia %>% mutate_at(c("Visit date", "Date of Birth"),
                                     )
                              )
                         )
+#convert the 'Visit date' and 'Date of Birth' column values from numbers to date format
+
+bia$`Date of Birth` = as.Date.POSIXct(bia$`Date of Birth`, 
+                                      format = "%Y-%m-%d"
+                                      )
+#replace all typos of "tyfoid" to "typhoid" using gsub()
+bia$Diagnosis = gsub(pattern = "tyfoid", 
+                     replacement = "typhoid", 
+                     x = bia$Diagnosis, 
+                     ignore.case = TRUE
+                     )
+
 #overwrite the oldfile to a new-cleaned file
 
 write.xlsx(bia, 
@@ -45,3 +57,5 @@ write.xlsx(bia,
            append = TRUE, 
            showNA = TRUE
            )
+
+
