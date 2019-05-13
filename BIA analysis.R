@@ -6,7 +6,7 @@ library(xlsx)
 library(dplyr)
 
 #read the file into an R dataframe
-bia = read_xlsx("C:/Users/lelai/OneDrive/Documents/work/BI Analyst - Application Assignment LastName_FirstName.xlsx", 
+bia = read_xlsx("C:/Users/Elaine/Google Drive/BI analysis/PendaHealth_Data.xlsx", 
                 sheet = "PatientPaidVisit", 
                 range = "A1:K84365", 
                 col_names = TRUE
@@ -39,7 +39,7 @@ bia = bia %>% mutate_at(c("Visit date", "Date of Birth"),
 #overwrite the oldfile to a new-cleaned file
 
 write.xlsx(bia, 
-           file = "C:/Users/lelai/OneDrive/Documents/work/BI Analyst - Application Assignment LastName_FirstName.xlsx", 
+           file = "C:/Users/Elaine/Google Drive/BI analysis/PendaHealth_Data.xlsx", 
            sheetName = "clean BIA", 
            col.names = TRUE, 
            append = TRUE, 
