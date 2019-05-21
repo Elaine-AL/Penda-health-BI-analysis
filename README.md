@@ -9,7 +9,7 @@ This is an Excel analysis of data collected by Penda Health on **typhoid cases**
 
 -- _PendaHealthdata__Analysis.xlsx_ file is the final analysis of the data containing charts and tables of findings
 
--- 
+-- _BI analysis.pbix_ file contains the insight analysis of the data set
 
 > The Ministry of Health wanted to distribute free Typhoid vaccines to locations that recorded an average of 15 cases for children below 5 years of age through Penda Health. Therefore, through patient past records the organization is able to determine those locations through the following analysis. 
 
