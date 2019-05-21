@@ -19,7 +19,9 @@ Below is the visualization insights derived from the dataset using **Power BI** 
 
 ![Image](https://raw.githubusercontent.com/Elaine-AL/Penda-health-BI-analysis/master/PendaData%20-%20visualization.png)
 
-The table shows the records of patients below 5 years years old that were diagnosed with typhoid in the different locations.
+The table below shows the records of patients below 5 years years old that were diagnosed with typhoid in the different locations.
+
+![Image](https://raw.githubusercontent.com/Elaine-AL/Penda-health-BI-analysis/master/tableResults.PNG)
 
 From the table it is evident that **Embakasi**, **Githurai 45**, **Kahawa West**, **Umoja** and **Zimmerman** locations will receive the free typhoid vaccination from the Ministry of health.
 
